@@ -1,0 +1,15 @@
+# Ignore the vendor directory
+/vendor/*
+!/vendor/.gitkeep
+
+# Ignore Composer dependencies lock file (optional)
+composer.lock
+
+# Ignore IDE/editor files
+/.idea/
+/.vscode/
+/nbproject/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
